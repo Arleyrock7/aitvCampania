@@ -1,0 +1,398 @@
+html {
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+body {
+  font-family: MyriadPro-Regular; }
+  body .navbar-default {
+    background-color: #1B1D3A;
+    border-color: #1B1D3A;
+    width: 100%;
+    height: 120px; }
+    body .navbar-default #logo {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    body .navbar-default #phone ul {
+      list-style: none; }
+      body .navbar-default #phone ul li {
+        display: -webkit-inline-box; }
+        body .navbar-default #phone ul li img {
+          margin-top: 0px;
+          height: 40px; }
+        body .navbar-default #phone ul li p {
+          margin-top: 50px;
+          color: #E3E639; }
+    body .navbar-default #vinculo a {
+      margin-top: 35px;
+      color: #E3E639;
+      float: right;
+      font-size: 30px; }
+      body .navbar-default #vinculo a:hover {
+        text-decoration: none;
+        color: #ffffff; }
+  body .principalSection #backgroundPrincipalSection {
+    background-image: url("../../../images/backgrounds/textura_001.jpg");
+    background-size: cover;
+    margin-top: -30px; }
+    body .principalSection #backgroundPrincipalSection #titulo {
+      margin-top: 100px;
+      margin-bottom: 70px;
+      font-size: 30px;
+      color: #E3E639; }
+    body .principalSection #backgroundPrincipalSection #video iframe {
+      margin-top: 10px;
+      width: 100%;
+      height: 330px;
+      margin-bottom: 30px; }
+    body .principalSection #backgroundPrincipalSection #subtitulo {
+      color: #E3E639;
+      font-size: 30px; }
+    body .principalSection #backgroundPrincipalSection p {
+      color: #ffffff;
+      font-size: 20px; }
+    body .principalSection #backgroundPrincipalSection button {
+      width: 100%;
+      margin-bottom: 100px;
+      background-color: #E3E639;
+      border-color: #E3E639;
+      color: #00A6A8; }
+      body .principalSection #backgroundPrincipalSection button:hover {
+        background-color: #ffffff;
+        border-color: #ffffff; }
+  body .principalSection2 {
+    background-image: url("../../../images/backgrounds/textura_002.jpg");
+    background-size: cover;
+    margin-top: -30px; }
+    body .principalSection2 #backgroundPrincipalSection2 #titulo {
+      margin-top: 100px;
+      margin-bottom: 70px;
+      font-size: 30px;
+      color: #E3E639; }
+    body .principalSection2 #confianEnNosotros {
+      text-align: center; }
+      body .principalSection2 #confianEnNosotros img {
+        margin-bottom: 100px; }
+  body .formSection #texto {
+    color: #00A6A8; }
+  body .formSection #titulo {
+    margin-top: 122px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #000000; }
+  body .formSection #texto {
+    margin-bottom: 50px;
+    font-size: 20px; }
+  body .formSection .fotos {
+    text-align: left; }
+    body .formSection .fotos #inputFile {
+      text-align: center; }
+    body .formSection .fotos input[type=file] {
+      float: right;
+      margin-top: 50px; }
+  body .formSection a {
+    color: #00A6A8; }
+    body .formSection a button {
+      margin-top: 300px; }
+  body .formSection .btn-lg {
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #00A6A8;
+    border-color: #00A6A8;
+    color: #ffffff; }
+    body .formSection .btn-lg:hover {
+      background-color: #ffffff;
+      border-color: #000000;
+      color: #000000; }
+  body .formSection #inputFile1 {
+    margin-top: 10px; }
+  body .formSection #inputFile2 {
+    margin-top: 35px; }
+  body .formSection #inputFile3 {
+    margin-top: 75px; }
+  body .formSection .modal .modal-content {
+    padding: 30px; }
+    body .formSection .modal .modal-content a {
+      background-color: #00A6A8;
+      padding: 10px;
+      color: #ffffff; }
+  body .fullSection {
+    background-image: url("../../../images/backgrounds/TEXTURA_003.jpg");
+    background-size: cover; }
+    body .fullSection #backgroundFullSection #titulo2 {
+      margin-top: 122px;
+      margin-bottom: 30px;
+      font-size: 30px;
+      color: #000000; }
+    body .fullSection #backgroundFullSection #texto {
+      font-size: 20px; }
+    body .fullSection #backgroundFullSection .btn-lg {
+      margin-top: 25px;
+      width: 100%;
+      margin-bottom: 100px;
+      background-color: #00A6A8;
+      border-color: #00A6A8;
+      color: #ffffff; }
+      body .fullSection #backgroundFullSection .btn-lg:hover {
+        background-color: #ffffff;
+        border-color: #000000;
+        color: #000000; }
+    body .fullSection #backgroundFullSection #video iframe {
+      margin-top: 120px;
+      width: 100%;
+      height: 330px;
+      margin-bottom: 30px; }
+  body footer {
+    background-image: url("../../../images/backgrounds/textura_005.jpg");
+    background-size: cover; }
+    body footer .thumbnail {
+      margin-top: 120px;
+      margin-bottom: 120px; }
+      body footer .thumbnail #texto {
+        text-align: center;
+        font-style: oblique;
+        color: #00A6A8; }
+        body footer .thumbnail #texto:hover {
+          color: #1B1D3A;
+          text-decoration: none; }
+      body footer .thumbnail #nombre {
+        color: #1B1D3A; }
+    body footer ul li {
+      color: #ffffff; }
+    body footer #footer_2 {
+      background-color: #00A6A8; }
+      body footer #footer_2 #footerText {
+        margin-top: 100px;
+        color: #ffffff; }
+      body footer #footer_2 ul li {
+        list-style: none; }
+        body footer #footer_2 ul li img {
+          height: 50px;
+          width: 50px; }
+      body footer #footer_2 a {
+        color: #1B1D3A; }
+        body footer #footer_2 a:hover {
+          color: #ffffff; }
+
+@media (min-width: 769px) and (max-width: 991px) {
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden; }
+
+  body {
+    font-family: MyriadPro-Regular; }
+    body .principalSection #backgroundPrincipalSection #titulo {
+      margin-top: 55px;
+      margin-bottom: 35px; }
+    body .principalSection #backgroundPrincipalSection button {
+      margin-bottom: 70px; }
+    body .principalSection2 #backgroundPrincipalSection2 #titulo {
+      margin-top: 55px;
+      margin-bottom: 35px; }
+    body .principalSection2 #confianEnNosotros img {
+      margin-bottom: 55px; }
+    body .fullSection #backgroundFullSection #titulo2 {
+      margin-top: 55px; }
+    body .fullSection #backgroundFullSection #video iframe {
+      margin-top: -55px;
+      margin-bottom: 55px; }
+    body .formSection #backgroundFormSection #titulo {
+      margin-top: 50px; }
+    body .formSection #texto {
+      color: #00A6A8; }
+    body .formSection p {
+      float: left; }
+    body .formSection #img1 {
+      margin-top: -10px;
+      margin-bottom: 10px; }
+    body .formSection #inputFile1 {
+      margin-top: -40px; }
+    body .formSection #img2 {
+      margin-top: 10px;
+      margin-bottom: 15px; }
+    body .formSection #inputFile2 {
+      margin-top: -70px; }
+    body .formSection #img3 {
+      margin-top: 10px;
+      margin-bottom: 15px; }
+    body .formSection #inputFile3 {
+      margin-top: -120px; }
+    body .formSection .btn-lg {
+      margin-bottom: 50px; }
+    body footer #backgroundFooterSection {
+      height: 835px; }
+    body footer .thumbnail {
+      margin-top: 70px;
+      margin-bottom: -5px; }
+    body footer #footer_2 #footerText {
+      margin-top: 55px; }
+    body footer #footer_2 ul li img {
+      height: 50px;
+      width: 50px; } }
+@media (min-width: 401px) and (max-width: 768px) {
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden; }
+
+  body {
+    font-family: MyriadPro-Regular; }
+    body .navbar-default {
+      background-color: #1B1D3A;
+      height: 90px; }
+      body .navbar-default #logo {
+        margin-bottom: 10px; }
+        body .navbar-default #logo img {
+          height: 60px;
+          width: 100px; }
+      body .navbar-default #phone {
+        visibility: hidden;
+        margin-top: -110px; }
+        body .navbar-default #phone ul li {
+          display: -webkit-inline-box; }
+      body .navbar-default #vinculo {
+        visibility: hidden;
+        margin-top: -105px; }
+    body .principalSection #backgroundPrincipalSection #titulo {
+      margin-top: 35px;
+      margin-bottom: 40px; }
+    body .principalSection #backgroundPrincipalSection #video iframe {
+      margin-top: -5px; }
+    body .principalSection #backgroundPrincipalSection button {
+      margin-bottom: 55px; }
+    body .principalSection2 #backgroundPrincipalSection2 #titulo {
+      margin-top: 50px;
+      margin-bottom: 35px; }
+    body .principalSection2 #confianEnNosotros img {
+      margin-bottom: 55px; }
+    body .fullSection #backgroundFullSection #titulo2 {
+      margin-top: 50px; }
+    body .fullSection #backgroundFullSection .btn-lg {
+      margin-top: 35px; }
+    body .fullSection #backgroundFullSection #video iframe {
+      margin-top: -55px;
+      margin-bottom: 55px; }
+    body .formSection #backgroundFormSection #titulo {
+      margin-top: 50px; }
+    body .formSection p {
+      float: left; }
+    body .formSection #img1 {
+      margin-top: -10px;
+      margin-bottom: 10px; }
+    body .formSection #inputFile1 {
+      margin-top: -40px; }
+    body .formSection #img2 {
+      margin-top: 10px;
+      margin-bottom: 15px; }
+    body .formSection #inputFile2 {
+      margin-top: -70px; }
+    body .formSection #img3 {
+      margin-top: 10px;
+      margin-bottom: 15px; }
+    body .formSection #inputFile3 {
+      margin-top: -120px; }
+    body .formSection .btn-lg {
+      margin-bottom: 40px; }
+    body footer #backgroundFooterSection {
+      height: 835px; }
+    body footer .thumbnail {
+      margin-top: 70px;
+      margin-bottom: -5px; }
+    body footer #footer_2 #footerText {
+      margin-top: 55px; }
+    body footer #footer_2 ul li img {
+      height: 50px;
+      width: 50px; } }
+@media (min-width: 297px) and (max-width: 400px) {
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden; }
+
+  body {
+    font-family: MyriadPro-Regular; }
+    body .navbar-default {
+      height: 90px; }
+      body .navbar-default #logo {
+        margin-bottom: 10px; }
+        body .navbar-default #logo img {
+          height: 47px;
+          width: 70px; }
+      body .navbar-default #phone {
+        visibility: hidden;
+        margin-top: -110px; }
+        body .navbar-default #phone ul li {
+          display: -webkit-inline-box; }
+      body .navbar-default #vinculo {
+        visibility: hidden;
+        margin-top: -105px; }
+    body .principalSection #backgroundPrincipalSection {
+      margin-top: -42px; }
+      body .principalSection #backgroundPrincipalSection #titulo {
+        margin-top: 40px;
+        margin-bottom: 30px; }
+      body .principalSection #backgroundPrincipalSection #video iframe {
+        height: 220px; }
+      body .principalSection #backgroundPrincipalSection button {
+        margin-bottom: 50px; }
+    body .principalSection2 {
+      height: 850px; }
+      body .principalSection2 #backgroundPrincipalSection2 #titulo {
+        margin-top: 40px;
+        margin-bottom: 40px; }
+    body .fullSection #backgroundFullSection #titulo2 {
+      margin-top: -15px; }
+    body .fullSection #backgroundFullSection .btn-lg {
+      margin-top: 30px; }
+    body .fullSection #backgroundFullSection #video iframe {
+      margin-top: -50px;
+      margin-bottom: 50px; }
+    body .formSection #backgroundFormSection #titulo {
+      margin-top: 40px; }
+    body .formSection #img1 {
+      margin-top: -10px;
+      margin-bottom: 10px; }
+    body .formSection #inputFile1 {
+      margin-top: -40px; }
+    body .formSection #img2 {
+      margin-top: 10px;
+      margin-bottom: 15px; }
+    body .formSection #inputFile2 {
+      margin-top: -70px; }
+    body .formSection #img3 {
+      margin-top: 10px;
+      margin-bottom: 15px; }
+    body .formSection #inputFile3 {
+      margin-top: -120px; }
+    body .formSection .btn-lg {
+      margin-bottom: 40px; }
+    body footer .thumbnail {
+      margin-top: 70px;
+      margin-bottom: -5px; }
+    body footer #thumbnail3 {
+      margin-bottom: 65px; }
+    body footer #footer_2 #footerText {
+      margin-top: 55px; }
+    body footer #footer_2 ul li img {
+      height: 50px;
+      width: 50px; } }
+@media (min-width: 147px) and (max-width: 296px) {
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden; }
+    html body .navbar-default {
+      height: 290px; }
+      html body .navbar-default #phone ul {
+        float: left;
+        margin-left: -45px; }
+      html body .navbar-default #vinculo a {
+        float: left; }
+    html body .fullSection #backgroundFullSection #video iframe {
+      margin-top: -55px;
+      margin-bottom: 140px; }
+    html footer #backgroundFooterSection #thumbnail1 {
+      margin-bottom: -70px; }
+    html footer #backgroundFooterSection #thumbnail2 {
+      margin-bottom: -70px; }
+    html footer #footer_2 img {
+      height: auto;
+      width: 25%; } }
+
+/*# sourceMappingURL=aitvStyles.min.css.map */

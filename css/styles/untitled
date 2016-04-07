@@ -1,0 +1,25 @@
+@media (min-width: 297px) and (max-width: 767px)
+	html
+		overflow-y: scroll
+		overflow-x: hidden
+	body
+		font-family: MyriadPro-Regular
+		.container
+		.navbar-default
+			background-color: $morado
+			height: 110px
+			#logo
+				margin-bottom: 10px
+			#phone
+				visibility: hidden
+				margin-top: -110px
+				ul
+					li
+						display: -webkit-inline-box
+						img
+							//margin-top: -5px
+							//margin-left: 180px
+						p
+			#vinculo
+				visibility: hidden
+				margin-top: -105px
